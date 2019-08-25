@@ -1,0 +1,36 @@
+{
+  "name": "spotify-to-youtube",
+  "version": "0.1.0",
+  "description": "description",
+  "main": "index.js",
+  "repository": "git@gitlab.com:cassvail/spotify-to-youtube.git",
+  "author": "cassvail <cassiano.vailati@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn install && dotenv nuxt",
+    "build": "dotenv nuxt build",
+    "start": "dotenv nuxt start",
+    "generate": "dotenv nuxt generate"
+  },
+  "devDependencies": {
+    "@nuxtjs/router": "^1.5.0",
+    "autoprefixer": "^9.6.1",
+    "css-loader": "^3.2.0",
+    "dotenv-cli": "^2.0.1",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "nuxt": "^2.9.1",
+    "nuxt-vuex-router-sync": "^0.0.3",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "tailwindcss": "^1.1.2",
+    "vuex-pathify": "^1.2.4"
+  }
+}
